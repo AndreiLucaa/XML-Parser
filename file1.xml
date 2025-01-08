@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <departments>
+        <department id="101" name="Engineering">
+            <manager>
+                <name>John Smith</name>
+                <email>john.smith@company.com</email>
+            </manager>
+            <employees>
+                <employee>
+                    <name>Jane Doe</name>
+                    <position>Software Engineer</position>
+                </employee>
+                <employee>
+                    <name>Mark Johnson</name>
+                    <position>DevOps Engineer</position>
+                </employee>
+            </employees>
+        </department>
+        <department id="102" name="HR">
+            <manager>
+                <name>Linda Brown</name>
+                <email>linda.brown@company.com</email>
+            </manager>
+            <employees>
+                <employee>
+                    <name>Emily Davis</name>
+                    <position>HR Specialist</position>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+    <policies>
+        <policy id="P1">
+            <title>Work from Home Policy</title>
+            <description>Employees are allowed to work from home up to 3 days per week.</description>
+        </policy>
+        <policy id="P2">
+            <title>Health and Safety Policy</title>
+            <description>Ensure a safe and healthy working environment for all employees.</description>
+        </policy>
+    </policies>
+</company>
