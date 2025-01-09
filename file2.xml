@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LibrarySystem>
+    <LibraryDetails>
+        <Name>Central City Library</Name>
+        <Location>
+            <Address>123 Library Lane</Address>
+            <City>Central City</City>
+            <State>Metropolis</State>
+            <PostalCode>12345</PostalCode>
+            <Country>Fictionland</Country>
+        </Location>
+        <Contact>
+            <PhoneNumber>+1-800-123-4567</PhoneNumber>
+            <Email>info@centrallibrary.com</Email>
+        </Contact>
+    </LibraryDetails>
+    
+    <Books>
+        <Book id="B001">
+            <Title>The Art of XML</Title>
+            <Genre>Technology</Genre>
+            <Author id="A001">Jane Doe</Author>
+            <PublishedYear>2015</PublishedYear>
+            <ISBN>978-3-16-148410-0</ISBN>
+            <Availability>Status: Available</Availability>
+        </Book>
+        <Book id="B002">
+            <Title>XML for Beginners</Title>
+            <Genre>Technology</Genre>
+            <Author id="A002">John Smith</Author>
+            <PublishedYear>2018</PublishedYear>
+            <ISBN>978-1-23-456789-0</ISBN>
+            <Availability>Status: Loaned</Availability>
+        </Book>
+    </Books>
+
+    <Authors>
+        <Author id="A001">
+            <Name>Jane Doe</Name>
+            <Nationality>American</Nationality>
+            <BirthYear>1980</BirthYear>
+            <BooksWritten>B001</BooksWritten>
+        </Author>
+        <Author id="A002">
+            <Name>John Smith</Name>
+            <Nationality>British</Nationality>
+            <BirthYear>1975</BirthYear>
+            <BooksWritten>B002</BooksWritten>
+        </Author>
+    </Authors>
+
+    <Users>
+        <User id="U001">
+            <Name>Emily Clarke</Name>
+            <MembershipType>Premium</MembershipType>
+            <Contact>
+                <Email>emily.clarke@example.com</Email>
+                <PhoneNumber>+1-555-678-1234</PhoneNumber>
+            </Contact>
+            <BorrowedBooks>
+                <BorrowedBook>
+                    <BookID>B002</BookID>
+                    <BorrowDate>2025-01-01</BorrowDate>
+                    <DueDate>2025-01-15</DueDate>
+                </BorrowedBook>
+            </BorrowedBooks>
+        </User>
+        <User id="U002">
+            <Name>James Brown</Name>
+            <MembershipType>Standard</MembershipType>
+            <Contact>
+                <Email>james.brown@example.com</Email>
+                <PhoneNumber>+1-555-123-4567</PhoneNumber>
+            </Contact>
+            <BorrowedBooks/>
+        </User>
+    </Users>
+</LibrarySystem>
