@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to read XML and display detailed output
+
 read_xml() {
     local file="$1"
     local xpath="$2"
@@ -27,7 +27,7 @@ read_xml() {
     fi
 }
 
-# Function to write XML with detailed logging
+
 write_xml() {
     local file="$1"
     local parent_node="$2"
@@ -61,7 +61,7 @@ write_xml() {
     fi
 }
 
-# Main script logic
+
 if [[ "$1" == "read" ]]; then
     xpath="$2"
     shift 2
