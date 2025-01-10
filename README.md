@@ -25,7 +25,7 @@ Use the read command to extract information from an XML file using an XPath quer
 
 #### Syntax: 
 
-	./script.sh read <xpath> <file1> [file2 ...]
+	./parse_xml.sh read <xpath> <file1> [file2 ...]
 
 #### Details:
 
@@ -48,7 +48,7 @@ Use the write command to add a new XML node with a value under a specified paren
 
 Syntax: 
 
-    ./script.sh write <parent_node> <new_node> <new_value> <file1> [file2 ...]
+    ./parse_xml.sh write <parent_node> <new_node> <new_value> <file1> [file2 ...]
 
 Details:
 
@@ -58,11 +58,11 @@ Details:
 	•	<file1> [file2 ...]: One or more XML files to modify.
 
 #### Examples( Add a new employee to the HR department ):
-	./script.sh write "<employees>" "employee" "<name>Michael Green</name><position>Recruiter</position>" company.xml
+	./parse_xml.sh write "<employees>" "employee" "<name>Michael Green</name><position>Recruiter</position>" company.xml
 
 
 ### 3. Help
 
 #### Run the script without arguments or with incorrect arguments to see the usage:
-    ./script.sh
+    ./parse_xml.sh
        
