@@ -1,4 +1,4 @@
-# XML-Proiect
+# XML-Parser
 
 ## Pentru a rula:
 
