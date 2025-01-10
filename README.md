@@ -58,7 +58,7 @@ Details:
 	•	<file1> [file2 ...]: One or more XML files to modify.
 
 #### Examples( Add a new employee to the HR department ):
-	./parse_xml.sh write "<employees>" "employee" "<name>Michael Green</name><position>Recruiter</position>" company.xml
+	./parse_xml.sh write "<employees>" "employee" "<name>Michael Green</name><position>Recruiter</position>" file1.xml
 
 
 ### 3. Help
