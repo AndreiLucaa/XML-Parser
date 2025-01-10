@@ -11,7 +11,7 @@ read_xml() {
         echo "XPath Query: $xpath"
         echo "----------------------------------------"
 
-        # Run the XPath query and check if it returns results
+        
         result=$(xmllint --xpath "$xpath" "$file" 2>/dev/null)
         if [[ $? -eq 0 ]]; then
             echo "Results found:"
