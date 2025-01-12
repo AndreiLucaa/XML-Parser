@@ -10,4 +10,4 @@
     chmod +x parse_xml.sh
   ### Rulare Script:
     ./parse_xml.sh
-  ### Mai multe detalii in XML-Parser.pdf
+  ### Mai multe detalii in XML-Parser.pdf .
